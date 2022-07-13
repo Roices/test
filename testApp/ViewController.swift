@@ -11,7 +11,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let buttonTest: UIButton() = {
+    let buttonTest: UIButton = {
        let button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         button.setTitleColor("Button", for: .normal)
         button.setTitleColor(.blue, for: .normal)
