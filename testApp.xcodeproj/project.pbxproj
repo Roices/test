@@ -17,6 +17,7 @@
 		17F3FC6E287F0DF400A5248E /* testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F3FC6D287F0DF400A5248E /* testAppTests.swift */; };
 		17F3FC78287F0DF400A5248E /* testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F3FC77287F0DF400A5248E /* testAppUITests.swift */; };
 		17F3FC7A287F0DF400A5248E /* testAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F3FC79287F0DF400A5248E /* testAppUITestsLaunchTests.swift */; };
+		17F3FC89287F183900A5248E /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F3FC88287F183900A5248E /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		17F3FC73287F0DF400A5248E /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F3FC77287F0DF400A5248E /* testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITests.swift; sourceTree = "<group>"; };
 		17F3FC79287F0DF400A5248E /* testAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17F3FC88287F183900A5248E /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				17F3FC61287F0DF400A5248E /* LaunchScreen.storyboard */,
 				17F3FC64287F0DF400A5248E /* Info.plist */,
 				17F3FC5C287F0DF200A5248E /* testApp.xcdatamodeld */,
+				17F3FC88287F183900A5248E /* View.xib */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F3FC89287F183900A5248E /* View.xib in Resources */,
 				17F3FC63287F0DF400A5248E /* LaunchScreen.storyboard in Resources */,
 				17F3FC60287F0DF400A5248E /* Assets.xcassets in Resources */,
 				17F3FC5B287F0DF200A5248E /* Main.storyboard in Resources */,
